@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Raleway:wght@300;400;700&family=Work+Sans:wght@300;400;700&display=swap');
+
+:root{
+--amarillo: #EAC926;
+--azul: #03264C;
+--celeste: #1259c3;
+--grisOscuro: #666;
+--grisClaro: #ebebeb;
+--verde: #39b54a;
+
+}
+
+body{
+    background-color: var(--amarillo);
+}
+
+.titulares{
+    font-size: 24px;
+}
+.precio{
+    font-size:18px;
+}
+.descuento{
+    font-size:16px;
+}
+.descripcion{
+    font-size:16px;
+}
+
+.navbar{
+
+}
+
+.loginbar{
+
+}
+
+.searchbar{
+
+}
+
+/* Tamaños Tipográficos
+Cuerpos de texto: 12px
+Titulares (Basado en tu última visita/Ofertas): 24px
+Precios: 18px
+Descuentos: 16px
+Descripciones: 16px */
