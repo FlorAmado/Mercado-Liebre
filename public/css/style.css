@@ -1,4 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Raleway:wght@300;400;700&family=Work+Sans:wght@300;400;700&display=swap');
+/* mobile first (375) movil m */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Raleway:wght@300;400;700&family=Roboto:wght@300;400;700&family=Work+Sans:wght@300;400;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
 
 :root{
 --amarillo: #EAC926;
@@ -11,7 +17,28 @@
 }
 
 body{
+   
+    font-family: 'Roboto';
+    
+
+}
+body h3{
+    /* descripcion */
+    font-size: 12px;
+}
+img{
+    width: 350px;
+    text-align: center;
+    margin: 20px 0 0 0;
+    
+}
+.header{
     background-color: var(--amarillo);
+}
+.header--logo{
+    width: 190px;
+    margin: 20px 15px 20px 15px ;
+    
 }
 
 .titulares{
@@ -23,25 +50,103 @@ body{
 .descuento{
     font-size:16px;
 }
-.descripcion{
+.texto{
     font-size:16px;
 }
 
-.navbar{
+main{
+    background-color: white;
+    border: solid 10px var(--grisClaro);
+}
+
+.header__section--nav{
+    width: 210px;
+    border: solid 1px var(--grisOscuro);
+    background-color: var(--grisClaro);
+    margin: 15px 0 0 15px;
+    color: var(--grisOscuro);
+    
+    
+
+}
+.header__button--search{
+   margin: 0 0 0 15px;
+   padding: 0px;
+   
+}
+
+.header__section--metodo-pago  {
+    text-align: center; 
+    align-items: center;
+    display: flex;
+    margin: 15px 0 15px 0;
+    padding-left: 5%;
+    
+}
+
+.header__section--items ul {
+
+list-style-type: none;
+text-decoration: none;
+padding: 0px;
+color: black;
+margin: 0 0 20px 0;
+}
+.header__section--items a {
+
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0px;
+    color: black;
+    margin: 0 0 20px 0;
+    }
+
+/* .loginbar{
+
+} */
+
+.header__button--menu {
+    font-size: 20px;
+    background-color: var(--celeste);
+    color: var(--grisClaro);
+    padding: 3px 3px;
+    width: 38px;
+    height: 38px;
+    border-radius: 5px 5px 5px 5px;
+    margin: 15px 45% 15px  45%;
+   /* text-align: center; */
+}
+
+
+footer{
+background-color: white;
+border: solid 10px var(--grisClaro);
 
 }
 
-.loginbar{
-
+footer i{
+    color:var(--celeste);
+    /* text-align: center;
+    align-items: center;
+    align-content: center; */
+    margin: 30px 100px;
+    font-size: 50px;
 }
 
-.searchbar{
-
+.footer__section--pago{
+    padding:  20px;
+    text-align: center;
+}
+.footer__section--envio{
+    padding:  20px;
+    text-align: center;
+}
+.footer__section--seguridad{
+    padding:  20px;
+    text-align: center;
 }
 
-/* Tamaños Tipográficos
-Cuerpos de texto: 12px
-Titulares (Basado en tu última visita/Ofertas): 24px
-Precios: 18px
-Descuentos: 16px
-Descripciones: 16px */
+.footer__section--copyright{
+    padding:  20px;
+    text-align: left;
+}
