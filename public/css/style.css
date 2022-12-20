@@ -46,14 +46,14 @@ img{
     width: 190px;
     margin: 20px 15px 20px 15px;
 }
-<<<<<<< Updated upstream
+
 .main--banner{
     width: 100vh;
-=======
+}
 /*                                  TAMAÑO DE FUENTE                                            */
 .titulares{
     font-size: 24px;
->>>>>>> Stashed changes
+
 }
 .main__section--titulares{
     font-size: var(--titulos);
