@@ -6,7 +6,7 @@
     margin: 0;
     padding: 0;
 }
-
+/*                                   VARIABLES                                           */
 :root{
 --amarillo: #EAC926;
 --azul: #03264C;
@@ -39,21 +39,24 @@ img{
     width: 100%;
     margin: auto 0;
 }
-.header{
-    background-color: var(--amarillo);
+
+
+/*                                  MAIN                                            */
+
+
+main{
+    /* background-color: white;  */
+    margin-bottom: 10px;
+
 }
-.header--logo{
-    width: 190px;
-    margin: 20px 15px 20px 15px;
+main:last-child{
+    /* background-color: white;  */
+    margin-bottom: 0px;
+
 }
 
 .main--banner{
     width: 100vh;
-}
-/*                                  TAMAÑO DE FUENTE                                            */
-.titulares{
-    font-size: 24px;
-
 }
 .main__section--titulares{
     font-size: var(--titulos);
@@ -67,18 +70,14 @@ img{
 .main__section--texto{
     font-size:16px;
 }
-/*                                  MAIN                                            */
-main{
-    /* background-color: white;  */
-    margin-bottom: 10px;
-
-}
-main:last-child{
-    /* background-color: white;  */
-    margin-bottom: 0px;
-
-}
 /*                                  HEADER                                            */
+.header{
+    background-color: var(--amarillo);
+}
+.header--logo{
+    width: 190px;
+    margin: 20px 15px 20px 15px;
+}
 .header__section--nav{
     width: 210px;
     border: solid 1px var(--grisOscuro);
