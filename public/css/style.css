@@ -46,8 +46,14 @@ img{
     width: 190px;
     margin: 20px 15px 20px 15px;
 }
+<<<<<<< Updated upstream
 .main--banner{
     width: 100vh;
+=======
+/*                                  TAMAÑO DE FUENTE                                            */
+.titulares{
+    font-size: 24px;
+>>>>>>> Stashed changes
 }
 .main__section--titulares{
     font-size: var(--titulos);
@@ -61,7 +67,7 @@ img{
 .main__section--texto{
     font-size:16px;
 }
-
+/*                                  MAIN                                            */
 main{
     /* background-color: white;  */
     margin-bottom: 10px;
@@ -72,7 +78,7 @@ main:last-child{
     margin-bottom: 0px;
 
 }
-
+/*                                  HEADER                                            */
 .header__section--nav{
     width: 210px;
     border: solid 1px var(--grisOscuro);
@@ -131,6 +137,7 @@ margin: 0 0 20px 0;
     font-size: 120%;
 }
 
+/*                                  FOOTER                                            */
 
 footer{
 background-color: white;
