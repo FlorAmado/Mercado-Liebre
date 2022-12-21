@@ -1,4 +1,4 @@
-/* mobile first (375) movil m */
+/* mobile first (320) movil s */
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Raleway:wght@300;400;700&family=Roboto:wght@300;400;700&family=Work+Sans:wght@300;400;700&display=swap');
 *{
@@ -26,90 +26,57 @@
 
 
 body{
-   
     font-family: var(--fuente);
-    border: solid 10px var(--grisClaro);
-
+    background-color: var(--grisClaro);
 }
 
 img{
-    /* width: 350px;
-    text-align: center;
-    margin: 20px 0 0 0; */
+
     width: 100%;
     margin: auto 0;
 }
 
-
-/*                                  MAIN                                            */
-
-
-main{
-    /* background-color: white;  */
-    margin-bottom: 10px;
-
-}
-main:last-child{
-    /* background-color: white;  */
-    margin-bottom: 0px;
-
-}
-
-.main--banner{
-    width: 100vh;
-}
-.main__section--titulares{
-    font-size: var(--titulos);
-}
-.main__section__article--precio{
-    font-size:18px;
-}
-.main__section__article--descuento{
-    font-size:16px;
-}
-.main__section--texto{
-    font-size:16px;
-}
 /*                                  HEADER                                            */
 .header{
     background-color: var(--amarillo);
+    padding-bottom: 3%;
 }
 .header--logo{
-    width: 190px;
+    width: 50%;
     margin: 20px 15px 20px 15px;
+    padding: 3%;
 }
 .header__section--nav{
-    width: 210px;
     border: solid 1px var(--grisOscuro);
     background-color: var(--grisClaro);
-    margin: 15px 0 0 15px;
     color: var(--grisOscuro);
+    width: 70%;
+    margin-left: 20px;
+    display: inline-block;
     
-    
-
 }
 .header__button--search{
-   margin: 0 0 0 15px;
-   padding: 0px;
-   
-}
 
+    display: inline-block;
+    border: solid 1px var(--grisOscuro);
+    font-size: 15px;
+    padding: 1px;
+}
 .header__section--metodo-pago  {
     text-align: center; 
-    align-items: center;
-    display: flex;
-    margin: 15px 0 15px 0;
-    padding-left: 5%;
+    margin: 15px 0 ;
+
     
 }
 
 .header__section--items ul {
-
+display: none;
 list-style-type: none;
 text-decoration: none;
 padding: 0px;
 color: black;
 margin: 0 0 20px 0;
+margin-left: 2%;
 }
 .header__section--items a {
 
@@ -120,11 +87,7 @@ margin: 0 0 20px 0;
     margin: 0 0 20px 0;
     }
 
-/* .loginbar{
-
-} */
-
-.header__button--menu {
+.header__button--menu-hamburguesa {
     color: var(--grisClaro);
     background-color: var(--celeste);
     width: 40px;
@@ -135,38 +98,106 @@ margin: 0 0 20px 0;
     margin-left: 45%;
     font-size: 120%;
 }
+/*                                  MAIN                                            */
+
+
+main{
+    width:90%;
+    margin-bottom: 10px;
+    background-color: var(--grisClaro); 
+    margin: 0 auto ;
+
+}
+
+
+.main--banner{
+    width: 100%;
+}
+.main__section--titulares{
+    font-size: var(--titulos);
+}
+.main__section__article--precio{
+    font-size:18px;
+}
+.main__section__article--descuento{
+    font-size:16px;
+    color: var(--verde);
+}
+.main__section--descripcion{
+    font-size:16px;
+    color: var(--grisOscuro);
+}
+h3{
+    padding: 10% 0 0 0;
+    color: var(--grisOscuro);
+    display: none;
+}
+.main__section-productos article{
+    margin-bottom: 10px;
+    background-color: white;
+
+    
+}
+.main__section-productos article i{
+    color: var(--verde);
+    border: solid 1px var(--verde);
+    border-radius: 100px;
+    padding: 12px;
+    font-size: 20px;
+
+}
+.main__section__article-producto{
+    padding: 5%;
+    border-top: solid 1px var(--grisClaro);
+}
+
+
 
 /*                                  FOOTER                                            */
 
-footer{
-background-color: white;
-border: solid 10px var(--grisClaro);
-
+.footer__section{
+    
+    background-color: white; 
+    /* border: solid 10px var(--grisClaro);
+    margin:0 auto; */
 }
 
 footer i{
     color:var(--celeste);
-    /* text-align: center;
-    align-items: center;
-    align-content: center; */
-    margin: 30px 100px;
+    /* margin: 30px 100px; */
     font-size: 50px;
 }
 
-.footer__section--pago{
-    padding:  20px;
-    text-align: center;
-}
-.footer__section--envio{
-    padding:  20px;
-    text-align: center;
-}
-.footer__section--seguridad{
+.footer__section__article--texto{
     padding:  20px;
     text-align: center;
 }
 
-.footer__section--copyright{
-    padding:  20px;
+.footer__section__article--texto-copyright{
     text-align: left;
+    padding:  20px;
+}
+
+
+@media (min-width: 361px) { /*  Navegación en tablets  */
+    .header__section--items ul {
+        display: block;
+    }
+    .header__button--menu-hamburguesa{
+        display: none;
+    }
+
+    main article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    h3{
+        display: block;
+    }
+    
+}
+
+@media (min-width: 769px) { /* Navegación en desktop */
+
+    
 }
