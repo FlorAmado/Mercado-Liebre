@@ -1,0 +1,16 @@
+:root{
+    --amarillo: #EAC926;
+    --azul: #03264C;
+    --celeste: #1259c3;
+    --grisOscuro: #666;
+    --grisClaro: #ebebeb;
+    --verde: #39b54a;
+    
+    --fuente: 'Roboto', 'sans-serif';
+        
+    --parrafos: 12px;
+    --titulos: 24px;
+    --precio: 18px;
+    --descuento: 16px;
+    --descripcion: 16px;
+    }

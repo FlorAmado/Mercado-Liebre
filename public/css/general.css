@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: var(--fuente);
+    background-color: var(--grisClaro);
+}
+
+img{
+
+    width: 100%;
+    margin: auto 0;
+}

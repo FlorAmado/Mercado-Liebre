@@ -1,0 +1,76 @@
+.header{
+    background-color: var(--amarillo);
+    padding: 10px;
+    display:flex;
+    flex-wrap: wrap;
+}
+.header--logo{
+    width: 50%;
+}
+.header__section--navbar{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: -10px;
+}
+.header__section--nav{
+    border: solid 1px var(--grisOscuro);
+    background-color: var(--grisClaro);
+    color: var(--grisOscuro);  
+    width: 50%; 
+}
+.header__button--search{
+    border: solid 1px var(--grisOscuro);
+    font-size: 15px;
+    padding: 1px;  
+    position: relative;
+}
+.header__section--metodo-pago  {
+    text-align: center; 
+    margin: 15px 0 ;
+}
+
+.header__section--items ul {
+display: none;
+list-style-type: none;
+text-decoration: none;
+padding: 0px;
+color: black;
+margin: 0 0 20px 0;
+margin-left: 2%;
+}
+.header__section--items a {
+
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0px;
+    color: black;
+    margin: 0 0 20px 0;
+    }
+
+.header__button--menu-hamburguesa {
+    color: var(--grisClaro);
+    background-color: var(--celeste);
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    margin-left: 45%;
+    font-size: 120%;
+}
+
+@media (min-width: 361px) { /*  Navegación en tablets  */
+    .header__section--items ul {
+        display: block;
+    }
+    .header__button--menu-hamburguesa{
+        display: none;
+    }
+    
+}
+
+@media (min-width: 769px) { /* Navegación en desktop */
+
+    
+}
