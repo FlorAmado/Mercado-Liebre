@@ -80,20 +80,25 @@ margin-left: 2%;
     }
     .header__section--metodo-pago  {
         width: 33%;
+        padding: 2%;
+    }
+    .header__section--items{
+        width: 100%;
     }
     .header__section--items ul {
         display:flex;
+        width: 40%;
         flex-direction: row;
         flex-wrap: wrap;
-        
-        
         column-gap: 10px;
+        align-items: center;
     }
-    .header__section--items nav {
+    .header__section--items nav ul {
+        width: 40%;
         display:flex;
         flex-direction: row;
         flex-wrap: wrap;
-        
+        align-items: center;
     }
     .header__button--menu-hamburguesa{
         display: none;
