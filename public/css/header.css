@@ -83,23 +83,24 @@ margin-left: 2%;
         padding: 2%;
     }
     .header__section--items{
-        width: 100%;
+    
+        display: flex;
+        justify-content: space-between;
     }
     .header__section--items ul {
+        
         display:flex;
-        width: 40%;
+        column-gap: 20px;
         flex-direction: row;
-        flex-wrap: wrap;
-        column-gap: 10px;
-        align-items: center;
     }
-    .header__section--items nav ul {
-        width: 40%;
-        display:flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-items: center;
-    }
+    /* .header__section--items nav {
+        
+        justify-content: space-between;
+    } */
+    /* .li2{
+        justify-content: flex-end;
+        border: dashed black;
+    } */
     .header__button--menu-hamburguesa{
         display: none;
     }
