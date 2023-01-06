@@ -88,10 +88,11 @@ margin-left: 2%;
         justify-content: space-between;
         margin-bottom: 0px;
         width: 100%;
+       
     }
     
     .header__nav ul {
-        
+        gap: 20px;
         display:flex;
         align-self: center;
         flex-direction: row;
