@@ -7,7 +7,9 @@ body{
     font-family: var(--fuente);
     background-color: var(--grisClaro);
 }
-
+main{
+    background-color: white;
+}
 img{
 
     width: 100%;
