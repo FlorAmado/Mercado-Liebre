@@ -1,0 +1,50 @@
+.register__main{
+display: flex;
+flex-direction: column;
+
+align-items: center;
+margin: 5% ;
+
+}
+
+.register__main__section{
+
+}
+
+.register__main__section__article{
+    
+    width: 100%;
+    padding: 15px;
+    display: flex;
+}
+.form__box{
+    margin-bottom: 30px;
+    width: 100%;
+    display: inline-block;
+    
+}
+.form__box-checkbox input, .form__box-checkbox label{
+width: 50%;
+display: inline-block;
+flex-direction: column;
+flex-wrap: wrap;
+}
+.form__box input {
+    padding: 8px;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+.form__box--buttons{
+    
+    justify-content: center;
+    gap: 100px;
+    border: none;
+}
+
+h4{
+    margin: 30px 0;
+}
+
