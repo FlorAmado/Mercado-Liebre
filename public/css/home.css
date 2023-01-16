@@ -20,6 +20,8 @@ main{
     flex-wrap: wrap;
     width:90%;
     margin: 0 auto ;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 .main__section-productos article{
     margin-bottom: 10px;
