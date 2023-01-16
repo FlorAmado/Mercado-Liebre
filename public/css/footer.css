@@ -1,8 +1,11 @@
 .footer__section{
-    
+    display: flex;
+/*     flex-wrap: wrap;
+    box-shadow: none; */
     background-color: white; 
     /* border: solid 10px var(--grisClaro);
     margin:0 auto; */
+    
 }
 
 footer i{
@@ -14,9 +17,23 @@ footer i{
 .footer__section__article--texto{
     padding:  20px;
     text-align: center;
+    
 }
 
 .footer__section__article--texto-copyright{
-    text-align: left;
+    
     padding:  20px;
+    text-align: left;
+    
+}
+@media (min-width:769px) {
+    .footer__section{
+        
+        
+    }
+    .footer__section__article--texto-copyright{
+        
+        
+       
+    }
 }

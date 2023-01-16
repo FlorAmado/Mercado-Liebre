@@ -39,7 +39,11 @@ main{
     right: 20px; 
     top: -15px;
     color: var(--verde);
+    transition: all 1s;
 
+}
+.main__section-productos article i:hover{
+    transform: rotate(-90deg);
 }
 .main__section__article-producto{
     padding: 5%;
@@ -47,10 +51,13 @@ main{
     position: relative;
     display: flex;
     flex-wrap: wrap;
+    
+    
 }
 .main__section__article-producto--precio{
     font-size:18px;
     width: 30%;
+    
 }
 .main__section__article-producto--descuento{
     font-size:16px;
@@ -61,13 +68,28 @@ main{
 .main__section-producto--descripcion{
     font-size:16px;
     color: var(--grisOscuro);
+    
 }
-h3{
-        padding: 10% 0 0 0;
+.main__section__article-producto h4{
+        
         color: var(--grisOscuro);
-        display: none;
+        /* font-weight: 300; */
+        transition: all 1s;
+        height: 0;
+        width: 100%;
+        margin: 0;
+        overflow: hidden;
         
     }
+    
+.main__section__article-producto:hover h4{
+    height: 50px;
+    margin-top: 30px;
+    
+}
+article:hover  {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
 
 @media (min-width: 361px) { /*  Navegación en tablets  */
 
@@ -75,18 +97,21 @@ h3{
         justify-content: space-between;
     }
     main article{
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+       
         width: 47%;
     }
 
 }
 @media (min-width: 769px) { /* Navegación en desktop */
-
+    .main__section-productos{
+        align-content: flex-start;
+        height: 500px;
+    }
     main article{
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        
         width: 24%;
     }
-    h3{
+    /* h4{
     display: block;
-}
+} */
 }
