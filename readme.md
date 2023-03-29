@@ -4,4 +4,4 @@
 
 #### Este es mi proyecto: Mercado-Liebre
 
-E-commerce en proceso :D 
+E-commerce terminado
